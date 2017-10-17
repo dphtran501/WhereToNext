@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Where To Next</string>
+    <string name="add">Add College</string>
+    <string name="name">Enter name of the college</string>
+    <string name="population_hint">Enter total student population</string>
+    <string name="tuition_hint">Enter annual in-state tuition</string>
+</resources>
