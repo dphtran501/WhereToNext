@@ -65,7 +65,7 @@ public class CollegeListActivity extends AppCompatActivity {
 
         detailsIntent.putExtra("Name", selectedCollege.getName());
         detailsIntent.putExtra("Population", selectedCollege.getPopulation());
-        detailsIntent.putExtra("Tuition", selectedCollege.getTuition());
+        detailsIntent.putExtra("Tuition", (float) selectedCollege.getTuition());
         detailsIntent.putExtra("Rating", selectedCollege.getRating());
         detailsIntent.putExtra("ImageName", selectedCollege.getImageName());
 
