@@ -10,22 +10,22 @@
 
     <ImageView
         android:id="@+id/collegeListImageView"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_weight="1"
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:layout_margin="@dimen/image_margins"
         app:srcCompat="@android:drawable/sym_def_app_icon"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_margin="@dimen/layout_textview_margins"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/collegeListNameTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
             tools:text="College Name"/>
 
         <RatingBar
